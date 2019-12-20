@@ -5,105 +5,133 @@
   box-sizing: border-box;
   font-size: 100%;
 }
+
 body {
   display: grid;
   grid-template-rows: 5% auto;
   justify-content: left;
   align-items: top;
   height: 100vh;
-   /*background: url(/assets/primavara_2016.jpg) no-repeat center center fixed;
-  background-size: cover;*/
 }
+
 #titlu {
-  font-family: sans-serif;
+  font-family: impact, sans-serif;
+  font-size: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 30px;
 }
+
 #poza-info {
+  font-family: Toledo Light, Rockwell, Times New Roman, sans-serif;
   grid-template-columns: auto auto;
   display: inline-grid;
   grid-column-gap: 9px;
   justify-content: left;
-  /*justify-content: space-between;*/
 }
+
 #poza {
-  height: 100%;
-  max-width: 40%;
+  height: 558px;
+  width: auto;
   padding: 15px;
   transition: all 0.5s ease-in-out;
   filter: grayscale(50%);
-  z-index: -1;
 }
+
 #poza:hover {
   transform: scale(1.04);
   filter: grayscale(10%);
 }
+
 .info {
 max-width: 100%;  
 height: 100%;
 overflow: visible;
 padding-top: 15px;
 justify-content: center;
-?*min-height: 100vh-1px;*/
 }
-.info:hover {
+
+/*.info:hover {
   overflow:scroll;
-}
+}*/
+
 h1 {
   font-size: 48px;
 }
+
 h3 {
   font-size: 30px;
 }
+
 ul, #continut, #loca {
   font-size: 23px;
 }
+
 ul {
   list-style-type: none;
 }
-.fa-facebook-square, .fa-envelope-square {
+.fa-github-square, .fa-linkedin-square, .fa-facebook-square {
   color: rgb(100, 100, 100);
 }
-.fa-facebook-square:hover {
-  color: blue;
-  
-}
-.fa-envelope-square:hover {
+.fa-github-square:hover, .fa-linkedin-square:hover, .fa-facebook-square:hover {
   color: blue; 
 }
-li {
+
+.leg {
+  font-size: 40px;
   display: inline;
 }
-?*
-#profile-card {
-  background-color: hsla(0, 0%, 100%, .5);
-  border-radius: 4px;
-  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
-  width: 480px;
-  max-width: calc(100vw - 10px);
+
+#din {
+  color: rgb(100, 100, 100);
+  font-style: italic;
 }
-#div-head ,#div-content {
-  /*background-color:hsla(120, 100%, 50%, 0.4); verde transparent*/
-  width: 90%;
-  margin: 0 auto;
+
+/*
+/* Tooltip container */
+.sl_tooltip {
+  position: relative;
+  display: inline-block;
 }
-/*#div-profile-image, #div-name-headline, #section-links, #p-about {
-  background-color: hsla(300, 100%, 50%, 0.4)violet transparent
-}*/
-#div-content {
-  padding: 5% 10%;
-  border-top: 2px solid hsla(0, 0%, 30%, .8);
-}
-#div-head ,#div-content {
+
+/* Tooltip text */
+.sl_tooltip .sl_tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
   text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text */
+  position: relative;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
 }
-#div-profile-image {
-  margin-top: -60px;
+
+/* Tooltip arrow */
+.sl_tooltip .sl_tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
 }
-#div-head ,#p-about {
-  margin-bottom: 10%;
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.sl_tooltip:hover .sl_tooltiptext {
+  visibility: visible;
+  opacity: 1;
 }
-#din, #email {
-  color: rgb(80, 80, 80);
-}*/
+*/
+
