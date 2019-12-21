@@ -15,15 +15,15 @@ body {
 }
 
 #titlu {
-  font-family: impact, sans-serif;
+  font-family: sans-serif;
   font-size: 30px;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   margin-left: 30px;
 }
 
 #poza-info {
-  font-family: Toledo Light, Rockwell, Times New Roman, sans-serif;
+  font-family: sans-serif;
   grid-template-columns: auto auto;
   display: inline-grid;
   grid-column-gap: 9px;
@@ -31,11 +31,18 @@ body {
 }
 
 #poza {
-  height: 558px;
-  width: auto;
-  padding: 15px;
+  height: 486px;
+  width: 596px;
+  padding: 25px;
   transition: all 0.5s ease-in-out;
   filter: grayscale(50%);
+  /*
+  background-size: cover;
+  background-position: 82.6475% 25%;
+  background-repeat: no-repeat;
+  padding-bottom: 69.4106%;
+  width: 572.016px;
+  */
 }
 
 #poza:hover {
@@ -44,10 +51,11 @@ body {
 }
 
 .info {
-max-width: 100%;  
-height: 100%;
+width: auto;
+height: auto;
 overflow: visible;
-padding-top: 15px;
+padding-top: 25px;
+padding-left: 25px;
 justify-content: center;
 }
 
@@ -82,3 +90,13 @@ ul {
   color: rgb(100, 100, 100);
   font-style: italic;
 }
+/*
+#poza {
+background-image: url(https://aboutme.imgix.net/background/users/c/a/r/carterbancroft_1554162412_965.jpg?q=40&dpr=2&auto=format&fit=max&w=1200&h=832.927132554091);
+    background-size: cover;
+    background-position: 82.6475% 25%;
+    background-repeat: no-repeat;
+    padding-bottom: 69.4106%;
+    width: 572.016px;
+}
+*/
