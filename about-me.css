@@ -27,7 +27,8 @@ body {
   left: 0;
   right: 0;
   height: 50px;
-  text-align: justify-all;
+  padding-top: 17px;
+  font-family: sans-serif;
 }
 
 #box-02 {
