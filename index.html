@@ -2,68 +2,131 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="S7/s1">
+    <!--<meta name="viewport" content="width=device-width">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="S8/s2">
     <meta name="author" content="P Spanu">
-    <title>about-me(Saptamana7/sarcina1)</title>
+    <title>about-me(Saptamana8/sarcina2)</title>
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
     <link rel="stylesheet" type="text/css" href="about-me.css">
   </head>
   <body>
-    <div id="titlu">
-      <h2> Despre mine</h2>
-    </div>
-    <div id="poza-info">
-      <div id="poza">
-        <img src="assets/euptfb.jpg" alt="Poza mea">
+    <div class="container">
+      <div id="box-01" class="box">
+          <h2> Despre mine</h2>
       </div>
-      <div class="info">
-        <div id="nume">
-          <h1> Petrea Spânu</h1>
-          <h3>Inginer IT, actualmente pensionar</h3>
-        </div>
-        <div id="loca">
-          <p id="din">din</p>
-          <p><i class="fa fa-map-marker"></i>Focșani, RO</p>
-        </div>
-        <div id="continut">
-          <div id="despre">
-            <p>M-am născut în 1956 într-un sat din nordul Câmpiei Bărăganului - Mărtinești, Vrancea.</p>
-            <p>După absolvirea cursurilor școlii generale din localitatea în care m-am născut, am urmat cursurile <a href="http://colegiulenergeticbucuresti.ro/" target="blank" title="Colegiul Tehnic Energetic">Liceului Energetic din București</a>.</p>
-            <p> In 1982 am absolvit cursurile <a href="http://www.electronica.pub.ro/" target="_blank" title="Facultatea de Electronica, Telecomunicatii si Tehnologia Informatiei">Facultății de Electronică și Telecomunicații</a> din cadrul Institutului Politehnic București.</p>
-            <p> In cei 35 de ani de activitate, am lucrat ca inginer de sistem /administrator de rețea în câteva intreprinderi si instituții dintre care aș aminti:</p>
-            <ul>
-              <li>
-                <p>- Centrul Teritorial de Calcul Focșani;</p>
-              </li>
-              <li>
-                <p>- BANCPOST - Sucursala Vrancea;</p>
-              </li>
-              <li>
-                <p>- APIA - Centrul județean Vrancea.</p>
-              </li>
-            </ul>
-            <p>În primii ani de activitate am produs și software. Unele din aplicațiile realizate de mine între anii '85 - '95 au fost preluate si distribuite la nivel național de către instituțiile în care lucram la acea vreme.</p>
-            <p>După pensionare, sunt pasionat de viața la țară. Îmi place să mă ocup de grădină și de diverse alte activități gospodărești. Sunt bucuros că am vecini, aproximativ de aceeași vârstă, cu pasiuni similare cu ale mele și cu care pot comunica foarte bine.</p>
+    
+    <!--<div id="titlu">
+      <h2> Despre mine</h2>
+    </div>-->
+      <div id="box-02" class="box">
+        <img src="\assets\euptfb.jpg" alt="Poza mea">
+        <div class="info">
+          <div id="nume">
+            <h1> Petrea Spânu</h1>
+            <h3>Inginer IT, actualmente pensionar</h3>
+          </div>
+          <div id="loca">
+            <p id="din">din</p>
+            <p><i class="fa fa-map-marker"></i>Focșani, RO</p>
+          </div>
+          <div id="continut">
+            <div id="despre">
+              <p>M-am născut în 1956 într-un sat din nordul Câmpiei Bărăganului - Mărtinești, Vrancea.</p>
+              <p>După absolvirea cursurilor școlii generale din localitatea în care m-am născut, am urmat cursurile <a href="http://colegiulenergeticbucuresti.ro/" target="blank" title="Colegiul Tehnic Energetic">Liceului Energetic din București</a>.</p>
+              <p> In 1982 am absolvit cursurile <a href="http://www.electronica.pub.ro/" target="_blank" title="Facultatea de Electronica, Telecomunicatii si Tehnologia Informatiei">Facultății de Electronică și Telecomunicații</a> din cadrul Institutului Politehnic București.</p>
+              <p> In cei 35 de ani de activitate, am lucrat ca inginer de sistem /administrator de rețea în câteva intreprinderi si instituții dintre care aș aminti:</p>
+              <ul>
+                <li>
+                  <p>- Centrul Teritorial de Calcul Focșani;</p>
+                </li>
+                <li>
+                  <p>- BANCPOST - Sucursala Vrancea;</p>
+                </li>
+                <li>
+                  <p>- APIA - Centrul județean Vrancea.</p>
+                </li>
+              </ul>
+              <p>În primii ani de activitate am produs și software. Unele din aplicațiile realizate de mine între anii '85 - '95 au fost preluate si distribuite la nivel național de către instituțiile în care lucram la acea vreme.</p>
+              <p>După pensionare, sunt pasionat de viața la țară. Îmi place să mă ocup de grădină și de diverse alte activități gospodărești. Sunt bucuros că am vecini, aproximativ de aceeași vârstă, cu pasiuni similare cu ale mele și cu care pot comunica foarte bine.</p>
             <p>Mi-aș dori foarte mult să revin la pasiunea din anii tinereții fără a abandona noua pasiune legată de grădina de la țară</p>
-          </div>
-          <div>
-            <h4>Pot fi contactat pe:</h4>
-            <ul>
-              <li class="leg">
-                <a href="https://github.com/PetreaSpanu" target="_blank" title="GitHub"><i class="fa fa-github-square "></i></a>
-              </li>
-              <li class="leg">
-                <a href="https://www.linkedin.com" target="_blank" title="LinkedIn"><i class="fa fa-linkedin-square"></i></a>
-              </li>
-              <li class="leg">
-                <a href="https://www.facebook.com/petrea.spanu" target="_blank" title="Facebook"><i class="fa fa-facebook-square"></i></a>
-              </li>
-            </ul>
+            </div>
           </div>
         </div>
-      </div>        
+      </div>
+      <!--<div id="box-03" class="box">Aside</div>-->
+      <div id="box-04" class="box">
+        <h4>Pot fi contactat pe:</h4>
+              <ul>
+                <li class="leg">
+                  <a href="https://github.com/PetreaSpanu" target="_blank" title="GitHub"><i class="fa fa-github-square "></i></a>
+                </li>
+                <li class="leg">
+                  <a href="https://www.linkedin.com" target="_blank" title="LinkedIn"><i class="fa fa-linkedin-square"></i></a>
+                </li>
+                <li class="leg">
+                  <a href="https://www.facebook.com/petrea.spanu" target="_blank" title="Facebook"><i class="fa fa-facebook-square"></i></a>
+                </li>
+              </ul>
+      </div>
     </div>
   </body>
 </html>
+
+    
+      <!--<div id="poza-info">
+        <div id="poza">
+          <img src="assets/euptfb.jpg" alt="Poza mea">
+</div>
+        <div class="info">
+          <div id="nume">
+            <h1> Petrea Spânu</h1>
+            <h3>Inginer IT, actualmente pensionar</h3>
+          </div>
+          <div id="loca">
+            <p id="din">din</p>
+            <p><i class="fa fa-map-marker"></i>Focșani, RO</p>
+          </div>
+          <div id="continut">
+            <div id="despre">
+              <p>M-am născut în 1956 într-un sat din nordul Câmpiei Bărăganului - Mărtinești, Vrancea.</p>
+              <p>După absolvirea cursurilor școlii generale din localitatea în care m-am născut, am urmat cursurile <a href="http://colegiulenergeticbucuresti.ro/" target="blank" title="Colegiul Tehnic Energetic">Liceului Energetic din București</a>.</p>
+              <p> In 1982 am absolvit cursurile <a href="http://www.electronica.pub.ro/" target="_blank" title="Facultatea de Electronica, Telecomunicatii si Tehnologia Informatiei">Facultății de Electronică și Telecomunicații</a> din cadrul Institutului Politehnic București.</p>
+              <p> In cei 35 de ani de activitate, am lucrat ca inginer de sistem /administrator de rețea în câteva intreprinderi si instituții dintre care aș aminti:</p>
+              <ul>
+                <li>
+                  <p>- Centrul Teritorial de Calcul Focșani;</p>
+                </li>
+                <li>
+                  <p>- BANCPOST - Sucursala Vrancea;</p>
+                </li>
+                <li>
+                  <p>- APIA - Centrul județean Vrancea.</p>
+                </li>
+              </ul>
+              <p>În primii ani de activitate am produs și software. Unele din aplicațiile realizate de mine între anii '85 - '95 au fost preluate si distribuite la nivel național de către instituțiile în care lucram la acea vreme.</p>
+              <p>După pensionare, sunt pasionat de viața la țară. Îmi place să mă ocup de grădină și de diverse alte activități gospodărești. Sunt bucuros că am vecini, aproximativ de aceeași vârstă, cu pasiuni similare cu ale mele și cu care pot comunica foarte bine.</p>
+            <p>Mi-aș dori foarte mult să revin la pasiunea din anii tinereții fără a abandona noua pasiune legată de grădina de la țară</p>
+            </div>
+            <div>
+              <h4>Pot fi contactat pe:</h4>
+              <ul>
+                <li class="leg">
+                  <a href="https://github.com/PetreaSpanu" target="_blank" title="GitHub"><i class="fa fa-github-square "></i></a>
+                </li>
+                <li class="leg">
+                  <a href="https://www.linkedin.com" target="_blank" title="LinkedIn"><i class="fa fa-linkedin-square"></i></a>
+                </li>
+                <li class="leg">
+                  <a href="https://www.facebook.com/petrea.spanu" target="_blank" title="Facebook"><i class="fa fa-facebook-square"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>        
+      </div>-->
 

@@ -7,12 +7,77 @@
 }
 
 body {
-  display: grid;
-  grid-template-rows: 5% auto;
-  justify-content: left;
-  align-items: top;
-  height: 100vh;
+  background-color: #333;
 }
+
+.container {
+  width: 850px;
+  height: calc(100vh - 40px);
+  margin: 20px auto;
+  background-color: #fff;
+  position: relative;
+}
+
+.box {
+  position: relative;
+}
+
+#box-01 {
+  /*background-color: hsla(60, 100%, 60%, .85);*/
+  left: 0;
+  right: 0;
+  height: 50px;
+  text-align: justify-all;
+}
+
+#box-02 {
+  background-color: hsla(84, 84%, 56%, .85);
+  width: 100%;
+  height: calc(100vh - 260px);
+}
+
+/*#box-03 {
+  background-color: hsla(332, 69%, 51%, .85);
+  top: 50px;
+  right: 0;
+  width: 40%;
+    height: calc(100vh - 150px);*/
+}
+
+#box-04 {
+  background-color: lightblue;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}
+
+img {
+  float: left;
+  padding-right: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.info {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.fa-github-square, .fa-linkedin-square, .fa-facebook-square {
+  color: rgb(100, 100, 100);
+}
+.fa-github-square:hover, .fa-linkedin-square:hover, .fa-facebook-square:hover {
+  color: blue; 
+}
+
+.leg {
+  font-size: 35px;
+  display: inline;
+}
+
+/*
 
 #titlu {
   font-family: sans-serif;
@@ -36,13 +101,13 @@ body {
   padding: 25px;
   transition: all 0.5s ease-in-out;
   filter: grayscale(50%);
-  /*
+
   background-size: cover;
   background-position: 82.6475% 25%;
   background-repeat: no-repeat;
   padding-bottom: 69.4106%;
   width: 572.016px;
-  */
+  
 }
 
 #poza:hover {
@@ -90,7 +155,7 @@ ul {
   color: rgb(100, 100, 100);
   font-style: italic;
 }
-/*
+
 #poza {
 background-image: url(https://aboutme.imgix.net/background/users/c/a/r/carterbancroft_1554162412_965.jpg?q=40&dpr=2&auto=format&fit=max&w=1200&h=832.927132554091);
     background-size: cover;
@@ -99,4 +164,6 @@ background-image: url(https://aboutme.imgix.net/background/users/c/a/r/carterban
     padding-bottom: 69.4106%;
     width: 572.016px;
 }
+
+ class="img-responsive img-rounded"
 */
