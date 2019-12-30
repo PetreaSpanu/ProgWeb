@@ -29,6 +29,7 @@ body {
   height: 50px;
   padding-top: 17px;
   font-family: sans-serif;
+  padding-left: 20px;
 }
 
 #box-02 {
@@ -46,10 +47,10 @@ body {
 }
 
 #box-04 {
-  background-color: lightblue;
   bottom: 0;
   width: 100%;
   height: 100px;
+
 }
 
 img {
@@ -62,8 +63,7 @@ ul {
 }
 
 .info {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 15px;
 }
 
 .fa-github-square, .fa-linkedin-square, .fa-facebook-square {
